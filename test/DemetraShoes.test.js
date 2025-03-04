@@ -38,7 +38,7 @@ describe("DemetraShoes", function () {
         vrfCoordinatorV2Mock = await VRFCoordinatorV2_5Mock.deploy(
             BigInt("100000000000000000"),
             BigInt("1000000000"),
-            BigInt("4639000000000000")
+            BigInt("4700000000000000")
         );
         await vrfCoordinatorV2Mock.waitForDeployment();
 
